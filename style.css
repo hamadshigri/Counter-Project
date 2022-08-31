@@ -1,0 +1,31 @@
+body {
+    background-color: darkcyan;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    color: #fff;
+    font-size: 40px;
+}
+.counter-card {
+    background-color:darkgreen; 
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+button {
+    padding: 12px 24px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+button:hover {
+    background-color: blanchedalmond;
+    color: tomato;
+    transition: all 0.3s ease-in;
+}
